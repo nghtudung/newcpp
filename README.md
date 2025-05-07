@@ -98,5 +98,6 @@ int main() {
 ## 🙇‍♂️ Credits
 
 From [GieJack™](https://www.youtube.com/watch?v=dQw4w9WgXcQ) with love ❤️
+Why don't you star this repo?
 
 ---
