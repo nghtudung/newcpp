@@ -24,7 +24,7 @@ git clone https://github.com/nghtudung/newcpp.git
 2. **Make the script executable:**
 
 ````bash
-chmod +x /path/to/newcpp/newcpp
+chmod +x /path/to/newcpp/newcpp.py
 ````
 
 3. **Add an alias to your shell config:**
