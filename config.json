@@ -1,0 +1,7 @@
+{
+    "default_template": "SAMPLE.cpp",
+    "open_after_create": true,
+    "create_in_out": false,
+    "input_ext": "INP",
+    "output_ext": "OUT"
+}

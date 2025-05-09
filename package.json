@@ -1,0 +1,7 @@
+{
+    "name": "newcpp",
+    "version": "pre-alpha 0.0.1",
+    "description": "Create new .cpp file from a template (e.g. SAMPLE.cpp)",
+    "author": "GieJack™",
+    "license": "MIT"
+}
