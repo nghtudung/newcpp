@@ -9,16 +9,17 @@ import json
 import time
 import qrcode
 
-with open("config.json", "r", encoding="utf-8") as f:
+script_dir = os.path.dirname(os.path.realpath(__file__))
+template_path = os.path.join(script_dir, template_name)
+
+with open(os.path.join(script_dir, "config.json"), "r", encoding="utf-8") as f:
     config = json.load(f)
-with open("package.json", "r", encoding="utf-8") as f:
+with open(os.path.join(script_dir, "package.json"), "r", encoding="utf-8") as f:
     data = json.load(f)
 
 template_name = config["default_template"]
 open_file = config["open_after_create"]
 createIO = config["create_in_out"]
-script_dir = os.path.dirname(os.path.realpath(__file__))
-template_path = os.path.join(script_dir, template_name)
 
 def printVersion():
     print("newcpp {ver}".format(ver=data["version"]))
